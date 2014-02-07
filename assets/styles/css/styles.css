@@ -798,6 +798,15 @@ footer .twitter-share-button {
   top: 42%;
 }
 
+.title-sub {
+  font-size: 1.6em;
+  text-shadow: 0 8px 6px rgba(0, 0, 0, 0.6);
+  margin-top: 1.3em;
+  position: absolute;
+  width: 100%;
+  top: 42%;
+}
+
 .background {
   background: url(../../images/background.jpg) no-repeat 50% 100%;
   bottom: 96px;
@@ -1309,7 +1318,7 @@ footer .twitter-share-button {
   .about .panel header:before {
     background-size: 66px 90px;
   }
-
+  
   .toggle {
     bottom: 12%;
   }
@@ -1501,6 +1510,10 @@ footer .twitter-share-button {
 
   .title {
     font-size: 3.46667em;
+  }
+  
+  .title-sub {
+
   }
 
   .background {
@@ -1758,6 +1771,10 @@ footer .twitter-share-button {
 
   .title {
     font-size: 3.46667em;
+  }
+  
+  .title {
+  
   }
 
   .background {
@@ -2697,6 +2714,16 @@ html.touch .links a.tap {
     display: none;
   }
 }
+
+@media (max-width: 500px)
+{
+  .title-sub
+   {
+    font-size: 1.4em;
+	margin-top: 5em;
+  }
+}
+
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
   #awwwards a {
     -webkit-background-size: 70px 105px;
